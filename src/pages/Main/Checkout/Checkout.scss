@@ -1,0 +1,14 @@
+// Custom
+
+.product-list {
+  overflow: auto;
+  max-height: 91vh;
+  -ms-overflow-style: none;
+}
+.product-list::-webkit-scrollbar {
+  display: none;
+}
+
+.px-12 {
+  padding: 0 12rem;
+}

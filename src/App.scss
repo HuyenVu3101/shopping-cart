@@ -1,0 +1,174 @@
+.App {
+  background: #e5e7eb;
+  height: 100vh;
+}
+.cn-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .img-main {
+    width: 50%;
+  }
+}
+.cn-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .img-item {
+    width: 80%;
+  }
+}
+
+.loading {
+  position: fixed;
+  z-index: 9999;
+  inset: 16px 2rem 2rem 16px;
+  pointer-events: none;
+}
+
+/* Custom */
+.hover-black {
+  text-decoration: none;
+  &:hover {
+    color: black;
+  }
+}
+.hover-blue {
+  background-color: rgb(59, 130, 246);
+}
+.text-blue {
+  color: rgb(59, 130, 246);
+}
+.hover-text-blue:hover {
+  color: rgb(59, 130, 246);
+}
+.w-33 {
+  width: 33.333333%;
+}
+.pt-3-5 {
+  padding-top: 1.5rem;
+}
+.gap-4-5 {
+  gap: 2rem;
+}
+.gap-3-5 {
+  gap: 1.25rem;
+}
+.text-gray {
+  color: rgba(107, 114, 128);
+}
+.text-gray-300 {
+  color: #d1d5db;
+}
+.bg-gray-200 {
+  background-color: rgb(229, 231, 235);
+}
+.bg-blue-500 {
+  background-color: rgb(59, 130, 246);
+}
+.text-gray-700 {
+  color: rgb(55, 65, 81);
+}
+.inline-block {
+  display: inline-block;
+}
+.text-lg {
+  font-size: 1.125rem;
+}
+.relative {
+  position: relative;
+}
+.absolute {
+  position: absolute;
+}
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+.text-blue {
+  color: rgb(59, 130, 246);
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.wrapper-products {
+  height: 92vh;
+}
+.grid {
+  display: grid;
+}
+.grid-cols-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+.col-span-7 {
+  grid-column: span 7 / span 7;
+}
+.gap-y-3 {
+  row-gap: 0.75rem;
+}
+.p-4-5 {
+  padding: 2rem;
+}
+.rounded-3-5 {
+  border-radius: 0.75rem;
+}
+.col-span-12 {
+  grid-column: span 12 / span 12;
+}
+.col-span-10 {
+  grid-column: span 10 / span 10;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+.mt-3-5 {
+  margin-top: 1.25rem;
+}
+
+.w-1-6 {
+  width: 16.666667%;
+}
+.w-33 {
+  width: 33.333333%;
+}
+.w-66 {
+  width: 66.666667%;
+}
+
+.px-3-5 {
+  padding: 0 1.25rem;
+}
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+.text-right {
+  text-align: right;
+}
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+.duration-100 {
+  transition-duration: 0.1s;
+}
+.shadow-md {
+  --tw-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+.py-2-5 {
+  padding: 0.75rem 0;
+}
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
+.h11 {
+  height: 11rem;
+}
+.shadow-lgx {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
